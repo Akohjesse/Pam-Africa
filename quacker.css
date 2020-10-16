@@ -1,0 +1,449 @@
+
+*,body{
+   margin:0;
+   padding:0;
+   box-sizing: border-box;
+   
+}
+header{
+   display:flex;
+   justify-content: space-around;
+   padding-top:10px;
+   padding-bottom:0px;
+   background:rgb(255, 255, 255) !important;
+   width:100%;
+   border-bottom:2px solid rgb(243, 239, 239);
+   position:fixed;
+   z-index:1;
+
+}
+header ul li{
+   list-style-type: none;
+   display:inline;
+   padding:0px 40px;
+}
+header ul li a {
+   text-decoration: none;
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-weight:500; 
+   color:green !important;
+}
+header h3{
+ font-family:'segoe script';
+ color:rgb(255, 11, 11);
+ font-weight:700;
+ font-size:1.3em;
+}
+
+#welcome{
+   text-align:center;
+   font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   background: url(mataura.png);
+   background-size:cover;
+   padding-bottom:300px;
+   padding-top:180px;
+   box-shadow:  0 4px 8px 0 rgb(187, 187, 187);
+   border-bottom-left-radius:100% ;
+border-bottom-right-radius:100% ;
+}
+#welcome h2{
+    font-size:2.8em;
+    width:40%;
+    padding-bottom:20px;
+    margin:0 auto;
+    animation-iteration-count: 10;
+}
+#welcome button{
+   width:10%;
+   border-radius:20px;
+   font-family:-apple-system, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+   border:1px grey;
+   height:40px;
+   font-weight:600;
+   color:rgb(255, 255, 255);
+   background:orangered;
+   font-size:20px;
+  
+}
+#about{
+   display:flex;
+   width:100%;
+   border-top-right-radius: 200%;
+    border-top-left-radius: 60%;
+    border-bottom-right-radius: 100%;
+    border-bottom-left-radius: 100%;
+   
+text-align:center;
+background-color:rgb(204, 248, 204);
+background-image:url(Taieri.png);
+background-blend-mode:lighten;
+background-size:cover;
+font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.about-info{
+   padding-top:180px;
+   padding-bottom:60px;
+}
+.about-info p{
+   font-size:1.1em;
+   line-height:34px;
+   width:60%;
+   margin:0 auto;
+   font-weight:600;
+}
+.about-info h3{
+   border-bottom:3px solid orange;
+   width:8%;
+   margin:0 20px;
+   font-size:1.5em;
+   
+}
+.about-info button{
+   width:10%;
+   border-radius:20px;
+   font-family:-apple-system, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+   border:1px grey;
+   height:40px;
+   font-weight:600;
+   color:rgb(255, 255, 255);
+   background:orangered;
+   font-size:20px;
+   margin-top:20px;
+}
+button:hover{
+    background:rgb(88, 245, 88);
+    color:black;
+   
+}
+#welcome button:hover{
+   background:rgb(88, 245, 88);
+   color:black;
+}
+#donate button:hover{
+   background:rgb(88, 245, 88);
+   color:black;
+}
+#growth{
+   display:flex;
+   justify-content:space-around;
+}
+#growth h2{
+   font-size:2em;
+   max-width:30%;
+   padding-left:50px;
+   padding-top:50px;
+   animation-direction: alternate-reverse;
+      animation:elohe 3s 1s ease-in-out infinite;
+   font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#growth img{
+   width:40%;
+}
+#donate{
+ text-align:center;
+ padding-bottom:60px;
+ padding-top:60px;
+ margin-top:0px;
+ background-image:url(Waiau.png);
+ background-size:cover;
+
+}
+#donate p{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size:1.3em;
+  max-width:50%;
+  color:rgb(28, 58, 34);
+  margin:0 auto;
+  font-weight:600;
+}
+#donate button{
+   font-family:-apple-system, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+   border:1px grey;
+   height:40px;
+   width:10%;
+   font-weight:600;
+   margin:10px;
+   color:rgb(255, 255, 255);
+   background:rgb(255, 69, 1);
+   font-size:15px;
+}
+/* #contact{
+   text-align:center;
+ 
+}
+#contact p{
+   font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-size:1.1em;
+   
+}
+#contact input{
+  width:20%;
+  height:40px;
+
+} */
+#money{
+   display:flex;
+   padding-left:50px;
+}
+#money img{
+   width:50%;
+   margin-top:-90px;
+   animation-duration:2s;
+   animation-iteration-count: 1;
+   animation-delay:5s;
+}
+#money p{
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-size:1.3em;
+   line-height: 3.5ch;
+   max-width:30%;
+   padding-top:60px;
+   font-weight:500;
+   
+   
+}
+footer{
+   background:rgb(29, 28, 28);
+   padding:30px;
+   color:white;
+}
+footer a{
+   color:orange;
+}
+@keyframes elohe{
+   0%{color:rgb(176, 176, 248)}
+   20%{color:orange;}
+   40%{color:orangered;}
+   60%{color:rgb(166, 255, 0);}
+   80%{color:lightgreen;}
+   100%{color:rgb(176, 176, 248);}
+
+}
+/* MObile styles */
+@media (min-width:360px)
+       and (max-width:480px){
+         header h3{
+           font-size:1.2em;
+         }
+         header{
+           display:block;
+         }
+         header ul li{
+           padding:0 0px;
+           width:20%;
+           float:left;
+           font-size:0.9em;
+         }
+         header nav{
+           padding:10px;
+         }
+         #welcome h2{
+           width:90%;
+           font-size:2em;
+         }
+         #welcome button{
+           width:30%;
+         }
+         #welcome{
+           background-size:cover;
+           background-repeat:no-repeat;
+           border-bottom-left-radius: 100%;
+           border-bottom-right-radius:100%;
+           padding-bottom:150px;
+         }
+         #about{
+           display:block;
+           border-top-right-radius: 70%;
+            border-top-left-radius: 70%;
+             border-bottom-right-radius: 100%;
+            border-bottom-left-radius: 100%;
+         }
+         .about-info{
+           padding-top:50px;
+            padding-bottom:50px;
+           }
+        .about-info p{
+          font-size:1em;
+          line-height:20px;
+           width:80%;
+          margin:0 auto;
+         font-weight:500;
+          }
+        .about-info h3{
+            display:none;
+   
+           }
+          .about-info button{
+             width:30%;
+           }
+             #growth{
+            display:block;
+           }
+           #growth h2{
+            max-width:80%;
+            padding:0 auto;
+            font-size:1.6em;
+          }
+          #growth img{
+            padding-top:40px;
+            width:80%;
+          }
+          #money {
+            display:grid;
+            grid-template-columns:1fr;
+            grid-template-rows:2, minmax(100px aut0);
+          }
+          #money p{
+            max-width:90%;
+            font-size:1.1em;
+            line-height:normal;
+            grid-area:1;
+            padding-top:20px;
+          }
+          #money img{
+            width:100%;
+            margin:0;
+            padding:0;
+            margin-top:-60px;
+          }
+          #donate{
+             padding-bottom:30px;
+             padding-top:30px;
+             background-color:grey;
+             background-blend-mode:lighten;
+          }
+          #donate p{
+            max-width:90%;
+            color:black;
+            font-size:1.2em;
+
+          }
+          #donate button{
+            width:30%;
+            font-size:0.9em;
+            padding:0;
+            margin:3px;
+          }
+          footer p{
+            padding:0px;
+            font-size:0.9em;
+          }
+          footer {
+            padding:20px;
+          }
+      
+       }
+       /*   Tablet styles */
+@media (min-width:481px) 
+         and (max-width:768px){
+    header h3{
+        font-size:1.2em;
+    }
+    header{
+        display:block;
+    }
+     header ul li{
+           padding:0 0px;
+           width:20%;
+           float:left;
+           font-size:1em;
+         }
+         header nav{
+             padding:20px;
+         }
+          #welcome h2{
+           width:90%;
+           font-size:2em;
+         }
+          #welcome button{
+           width:30%;
+           font-size:1.5em;
+           height:50px;
+         }
+         #welcome{
+             padding-top:200px;
+         }
+         #about{
+           display:block;
+           border-top-right-radius: 120%;
+             border-bottom-right-radius: 100%;
+            border-bottom-left-radius: 100%;
+         }
+         .about-info{
+           padding-top:150px;
+            padding-bottom:80px;
+           }
+        .about-info p{
+          font-size:1.2em;
+          line-height:normal;
+           width:80%;
+          margin:0 auto;
+         font-weight:500;
+          }
+        .about-info h3{
+            display:none;
+   
+           }
+          .about-info button{
+             width:30%;
+             height:60px;
+             border-radius:40px;
+           }
+            #growth{
+            display:block;
+            text-align:center;
+           }
+           #growth h2{
+            max-width:90%;
+            padding:0 auto;
+            font-size:1.7em;
+          }
+          #growth img{
+            padding-top:40px;
+            width:80%;
+          }
+           #money {
+            display:grid;
+            grid-template-columns:1fr;
+            grid-template-rows:2, minmax(100px aut0);
+          }
+          #money p{
+            max-width:90%;
+            font-size:1.3em;
+            line-height:normal;
+            grid-area:1;
+            padding-top:20px;
+          }
+          #money img{
+            width:100%;
+            margin:0;
+            padding:0;
+            margin-top:-90px;
+          }
+           #donate{
+             padding-bottom:40px;
+             padding-top:40px;
+             background-color:grey;
+             background-blend-mode:lighten;
+          }
+          #donate p{
+            max-width:90%;
+            color:black;
+            font-size:1.6em;
+
+          }
+          #donate button{
+            width:30%;
+            font-size:1.6em;
+            margin:3px;
+          }
+          footer p{
+            padding:0px;
+            font-size:1.3em;
+            max-width:100%;
+            font-family:cursive;
+          }
+          footer {
+            padding:20px;
+          }
+}
