@@ -38,7 +38,7 @@ header h3{
 #welcome{
    text-align:center;
    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-   background: url(mataura.png);
+   background: url(assets/mataura.png);
    background-size:cover;
    padding-bottom:300px;
    padding-top:180px;
@@ -144,7 +144,7 @@ button:hover{
  padding-bottom:60px;
  padding-top:60px;
  margin-top:0px;
- background-image:url(Waiau.png);
+ background-image:url(Assets/Waiau.png);
  background-size:cover;
 
 }
@@ -447,3 +447,4 @@ footer a{
             padding:20px;
           }
 }
+
