@@ -1,57 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
-*,body{
+body{
    margin:0;
    padding:0;
    box-sizing: border-box;
+   background:rgb(41, 36, 36);
    
+}
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
 }
 header{
    display:flex;
    justify-content: space-around;
-   padding-top:10px;
-   padding-bottom:0px;
-   background:rgb(255, 255, 255) !important;
+   padding:20px;
+   background:rgb(41, 37, 37) !important;
    width:100%;
-   border-bottom:2px solid rgb(243, 239, 239);
+   border-bottom:2px solid rgb(0, 0, 0);
+   box-shadow:2px 2px 3px black;
    position:fixed;
    z-index:1;
+   align-items: center;
 
 }
 header ul li{
    list-style-type: none;
    display:inline;
-   padding:0px 40px;
+   padding:0px 30px;
 }
 header ul li a {
    text-decoration: none;
-   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-family: 'Chilanka';
    font-weight:500; 
-   color:green !important;
+   color:rgb(112, 248, 94) !important;
 }
 header h3{
- font-family:'segoe script';
- color:rgb(255, 11, 11);
- font-weight:700;
- font-size:1.3em;
+  font-family: 'Patrick Hand SC';
+ color:orangered;
+ font-weight:600;
+ font-size:1.7em;
 }
 
 #welcome{
    text-align:center;
    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-   background: url(assets/mataura.png);
+   background: url(assets/Taieri.png);
    background-size:cover;
+   background-attachment: fixed;
    padding-bottom:300px;
    padding-top:180px;
-   box-shadow:  0 4px 8px 0 rgb(187, 187, 187);
-   border-bottom-left-radius:100% ;
-border-bottom-right-radius:100% ;
+   box-shadow:  0 4px 8px 0 rgb(5, 5, 5);
+   background-color:rgb(0, 0, 0);
+   background-blend-mode:lighten;
+   /* border-bottom-left-radius:100% ;
+border-bottom-right-radius:100% ; */
 }
 #welcome h2{
-    font-size:2.8em;
-    width:40%;
+    font-size:3.9em;
+    width:60%;
     padding-bottom:20px;
     margin:0 auto;
     animation-iteration-count: 10;
+    color:rgb(255, 255, 255);
+    text-shadow:5px 5px  black;
 }
 #welcome button{
    width:10%;
@@ -66,39 +79,56 @@ border-bottom-right-radius:100% ;
   
 }
 #about{
-   display:flex;
    width:100%;
-   border-top-right-radius: 200%;
+   /* border-top-right-radius: 200%;
     border-top-left-radius: 60%;
     border-bottom-right-radius: 100%;
-    border-bottom-left-radius: 100%;
-   
-text-align:center;
-background-color:rgb(204, 248, 204);
-background-image:url(Assets/Taieri.png);
+    border-bottom-left-radius: 100%; */
+
+background-color:rgb(20, 20, 20);
+background-image:url(Assets/Vorderrhein.png);
 background-blend-mode:lighten;
 background-size:cover;
+background-attachment: fixed;
+margin:10px;
+
 font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .about-info{
    padding-top:180px;
    padding-bottom:60px;
+   text-align: center;
+   display:flex;
+   justify-content: space-around;
 }
 .about-info p{
    font-size:1.1em;
+   font-family: 'Montserrat';
    line-height:34px;
-   width:60%;
+  font-weight:400;
+   color:rgb(32, 28, 28);
    margin:0 auto;
+   /* text-shadow:2px 2px rgb(49, 48, 48); */
 }
 .about-info h3{
    border-bottom:3px solid orange;
    width:8%;
+   height:10%;
    margin:0 20px;
-   font-size:1.5em;
+   font-size:2em;
+   color:rgb(255, 255, 255);
+   text-shadow:2px 3px rgb(43, 41, 41);
    
 }
-.about-info button{
-   width:10%;
+.about-text{
+  width:50%;
+  padding:20px;
+  background: lavenderblush;
+  box-shadow:5px 5px 10px black;
+
+}
+.about-text button{
+   width:20%;
    border-radius:20px;
    font-family:-apple-system, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
    border:1px grey;
@@ -107,7 +137,7 @@ font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubunt
    color:rgb(255, 255, 255);
    background:orangered;
    font-size:20px;
-   margin-top:20px;
+   margin:20 0;
 }
 button:hover{
     background:rgb(88, 245, 88);
@@ -125,33 +155,34 @@ button:hover{
 #growth{
    display:flex;
    justify-content:space-around;
+   margin:60px;
+   box-shadow:0px 5px 8px black;
+
 }
 #growth h2{
-   font-size:2em;
-   max-width:30%;
-   padding-left:50px;
+   font-size:1.6em;
    padding-top:50px;
    animation-direction: alternate-reverse;
+   max-width:40%;
       animation:elohe 3s 1s ease-in-out infinite;
    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 #growth img{
-   width:40%;
+   width:30%;
 }
 #donate{
  text-align:center;
  padding-bottom:60px;
  padding-top:60px;
- margin-top:0px;
- background-image:url(Assets/Waiau.png);
- background-size:cover;
-
+ margin: 30px 90px;
+ box-shadow:-10px 20px 22px black;
+ background:rgb(24, 23, 23);
 }
 #donate p{
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size:1.3em;
   max-width:50%;
-  color:rgb(28, 58, 34);
+  color:rgb(233, 243, 235);
   margin:0 auto;
   font-weight:600;
 }
@@ -183,26 +214,31 @@ button:hover{
 #money{
    display:flex;
    padding-left:50px;
+   background-image:url(Assets/Waimakariri.png);
+   background-size:cover;
+   background-color:rgb(31, 28, 28);
+   background-blend-mode:darken;
+   background-attachment: fixed;
+   
 }
 #money img{
-   width:50%;
+   width:40%;
    margin-top:-90px;
    animation-duration:2s;
    animation-iteration-count: 1;
-   animation-delay:5s;
+   animation-delay:2s;
 }
 #money p{
-   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-   font-size:1.3em;
-   line-height: 3.5ch;
-   max-width:30%;
-   padding-top:60px;
-   font-weight:500;
+   color:lavender;
+   font-family: 'Montez';
+  font-size:1.6em;
+  padding-top:50px;
+  max-width:40%;
    
    
 }
 footer{
-   background:rgb(29, 28, 28);
+   background:rgb(134, 37, 1);
    padding:30px;
    color:white;
 }
@@ -218,232 +254,3 @@ footer a{
    100%{color:rgb(176, 176, 248);}
 
 }
-/* MObile styles */
-@media (min-width:360px)
-       and (max-width:480px){
-         header h3{
-           font-size:1.2em;
-         }
-         header{
-           display:block;
-         }
-         header ul li{
-           padding:0 0px;
-           width:20%;
-           float:left;
-           font-size:0.9em;
-         }
-         header nav{
-           padding:10px;
-         }
-         #welcome h2{
-           width:90%;
-           font-size:2em;
-         }
-         #welcome button{
-           width:30%;
-         }
-         #welcome{
-           background-size:cover;
-           background-repeat:no-repeat;
-           border-bottom-left-radius: 100%;
-           border-bottom-right-radius:100%;
-           padding-bottom:150px;
-         }
-         #about{
-           display:block;
-           border-top-right-radius: 70%;
-            border-top-left-radius: 70%;
-             border-bottom-right-radius: 100%;
-            border-bottom-left-radius: 100%;
-         }
-         .about-info{
-           padding-top:50px;
-            padding-bottom:50px;
-           }
-        .about-info p{
-          font-size:1em;
-          line-height:20px;
-           width:80%;
-          margin:0 auto;
-         font-weight:500;
-          }
-        .about-info h3{
-            display:none;
-   
-           }
-          .about-info button{
-             width:30%;
-           }
-             #growth{
-            display:block;
-           }
-           #growth h2{
-            max-width:80%;
-            padding:0 auto;
-            font-size:1.6em;
-          }
-          #growth img{
-            padding-top:40px;
-            width:80%;
-          }
-          #money {
-            display:grid;
-            grid-template-columns:1fr;
-            grid-template-rows:2, minmax(100px aut0);
-          }
-          #money p{
-            max-width:90%;
-            font-size:1.1em;
-            line-height:normal;
-            grid-area:1;
-            padding-top:20px;
-          }
-          #money img{
-            width:100%;
-            margin:0;
-            padding:0;
-            margin-top:-60px;
-          }
-          #donate{
-             padding-bottom:30px;
-             padding-top:30px;
-             background-color:grey;
-             background-blend-mode:lighten;
-          }
-          #donate p{
-            max-width:90%;
-            color:black;
-            font-size:1.2em;
-
-          }
-          #donate button{
-            width:30%;
-            font-size:0.9em;
-            padding:0;
-            margin:3px;
-          }
-          footer p{
-            padding:0px;
-            font-size:0.9em;
-          }
-          footer {
-            padding:20px;
-          }
-      
-       }
-       /*   Tablet styles */
-@media (min-width:481px) 
-         and (max-width:768px){
-    header h3{
-        font-size:1.2em;
-    }
-    header{
-        display:block;
-    }
-     header ul li{
-           padding:0 0px;
-           width:20%;
-           float:left;
-           font-size:1em;
-         }
-         header nav{
-             padding:20px;
-         }
-          #welcome h2{
-           width:90%;
-           font-size:2em;
-         }
-          #welcome button{
-           width:30%;
-           font-size:1.5em;
-           height:50px;
-         }
-         #welcome{
-             padding-top:200px;
-         }
-         #about{
-           display:block;
-           border-top-right-radius: 120%;
-             border-bottom-right-radius: 100%;
-            border-bottom-left-radius: 100%;
-         }
-         .about-info{
-           padding-top:150px;
-            padding-bottom:80px;
-           }
-        .about-info p{
-          font-size:1.2em;
-          line-height:normal;
-           width:80%;
-          margin:0 auto;
-         font-weight:500;
-          }
-        .about-info h3{
-            display:none;
-   
-           }
-          .about-info button{
-             width:30%;
-             height:60px;
-             border-radius:40px;
-           }
-            #growth{
-            display:block;
-            text-align:center;
-           }
-           #growth h2{
-            max-width:90%;
-            padding:0 auto;
-            font-size:1.7em;
-          }
-          #growth img{
-            padding-top:40px;
-            width:80%;
-          }
-           #money {
-            display:grid;
-            grid-template-columns:1fr;
-            grid-template-rows:2, minmax(100px aut0);
-          }
-          #money p{
-            max-width:90%;
-            font-size:1.3em;
-            line-height:normal;
-            grid-area:1;
-            padding-top:20px;
-          }
-          #money img{
-            width:100%;
-            margin:0;
-            padding:0;
-            margin-top:-90px;
-          }
-           #donate{
-             padding-bottom:40px;
-             padding-top:40px;
-             background-color:grey;
-             background-blend-mode:lighten;
-          }
-          #donate p{
-            max-width:90%;
-            color:black;
-            font-size:1.6em;
-
-          }
-          #donate button{
-            width:30%;
-            font-size:1.6em;
-            margin:3px;
-          }
-          footer p{
-            padding:0px;
-            font-size:1.3em;
-            max-width:100%;
-            font-family:cursive;
-          }
-          footer {
-            padding:20px;
-          }
-}
-
