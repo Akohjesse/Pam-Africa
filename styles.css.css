@@ -451,3 +451,35 @@ footer a{
       overflow-x: hidden;
    }
 }
+@media (max-width:480px){
+   #welcome{
+      background-position:contain;
+   }
+   #welcome h2{
+      font-size:2.3em;width:95%;
+   }
+   #donate{
+      margin:20px 20px;
+   }
+   #growth img{
+      width:100%;
+   }
+   #money img{
+      width:100%;
+   }
+   #growth{
+      margin:30px;
+   }
+   .about-info p{
+      font-size:14px;
+   }
+   body{
+      overflow-x: hidden;
+   }
+   #welcome button{
+      width:30%;
+   }
+   #welcome {
+      padding-bottom:180px;
+   }
+}
