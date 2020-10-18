@@ -385,6 +385,13 @@ footer a{
    #growth img{
       width:80%;
    }
+   .about-info h3{
+      display: none;
+   }
+   .about-text button{
+      font-size: 13px;
+      width:35%;
+   }
    #money img{
       width:80%;
    }
@@ -400,16 +407,31 @@ footer a{
 }
 @media screen and (max-width:480px){
    #welcome h2{
-      font-size:2.8em;width:95%;
+      font-size:2.3em;width:95%;
    }
    #donate{
-      margin:20px 30px;
+      margin:20px 20px;
+   }
+   #growth img{
+      width:100%;
+   }
+   #money img{
+      width:100%;
    }
    #growth{
       margin:30px;
    }
    .about-info p{
-      font-size:17px;
+      font-size:14px;
+   }
+   body{
+      overflow-x: hidden;
+   }
+   #welcome button{
+      width:30%;
+   }
+   #welcome {
+      padding-bottom:180px;
    }
 }
 @media screen and (max-width:360px){
@@ -424,5 +446,8 @@ footer a{
    }
    #donate p{
       font-size:18px;
+   }
+   body{
+      overflow-x: hidden;
    }
 }
