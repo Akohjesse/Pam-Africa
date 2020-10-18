@@ -406,6 +406,11 @@ footer a{
    }
 }
 @media screen and (max-width:480px){
+   header{
+      display:block;
+      text-align:center;
+      height:auto;
+   }
    #welcome h2{
       font-size:2.3em;width:95%;
    }
