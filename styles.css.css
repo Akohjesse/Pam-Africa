@@ -407,9 +407,11 @@ footer a{
 }
 @media screen and (max-width:480px){
    header{
-      display:block;
-      text-align:center;
       height:auto;
+      padding:9px;
+   }
+   .icons i{
+      padding:0 5px;
    }
    #welcome h2{
       font-size:2.3em;width:95%;
@@ -418,8 +420,12 @@ footer a{
       margin:20px 20px;
    }
    header h3{
-      margin-top:-10px;
+      position: relative;
+      top:-10px;
+      left:-20px;
+      font-size:1.5em;
       margin-bottom:12px;
+      align-self: flex-start;
    }
    #growth img{
       width:100%;
@@ -448,8 +454,8 @@ footer a{
 }
 @media screen and (max-width:360px){
    header{
-      display:block;
-      text-align:center;
+      /* display:block;
+      text-align:center; */
       height:auto;
    }
    #welcome button{
@@ -465,7 +471,7 @@ footer a{
       font-size:18px;
    }
    body{
-      overflow-x: hidden;
+      overflow: hidden;
    }
 }
 @media (max-width:480px){
