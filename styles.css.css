@@ -412,8 +412,15 @@ footer a{
    #donate{
       margin:20px 20px;
    }
+   header h3{
+      margin-top:-10px;
+      margin-bottom:12px;
+   }
    #growth img{
       width:100%;
+   }
+   #growth h2{
+      max-width:100%;
    }
    #money img{
       width:100%;
@@ -422,7 +429,7 @@ footer a{
       margin:30px;
    }
    .about-info p{
-      font-size:14px;
+      font-size:16px;
    }
    body{
       overflow-x: hidden;
@@ -435,6 +442,11 @@ footer a{
    }
 }
 @media screen and (max-width:360px){
+   header{
+      display:block;
+      text-align:center;
+      height:auto;
+   }
    #welcome button{
       width:40%;
    }
@@ -442,7 +454,7 @@ footer a{
       padding-bottom:240px;
    }
    .about-info p{
-      font-size:15px;
+      font-size:18px;
    }
    #donate p{
       font-size:18px;
