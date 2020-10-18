@@ -5,6 +5,7 @@ body{
    padding:0;
    box-sizing: border-box;
    background:rgb(41, 36, 36);
+   overflow-x:hidden;
    
 }
 *{
