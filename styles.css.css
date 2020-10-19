@@ -405,7 +405,7 @@ footer a{
       width:20%;
    }
 }
-@media screen and (max-width:480px){
+ @media screen and (max-width:480px){
    header{
       height:auto;
       padding:9px;
@@ -505,4 +505,4 @@ footer a{
    #welcome {
       padding-bottom:180px;
    }
-}
+} 
