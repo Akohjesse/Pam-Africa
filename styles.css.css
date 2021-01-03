@@ -41,6 +41,7 @@ header h3{
   font-family: 'Patrick Hand SC';
  color:orangered;
  font-weight:600;
+ align-self:center;
  font-size:1.7em;
 }
 .icons{
@@ -316,9 +317,6 @@ footer a{
     #welcome h2{
        width:90%;
     }
-    #about{
-       
-    }
     .about-info{
        display:block;
       text-align:center;
@@ -469,9 +467,6 @@ footer a{
    }
    #donate p{
       font-size:18px;
-   }
-   body{
-      overflow: hidden;
    }
 }
 @media (max-width:480px){
